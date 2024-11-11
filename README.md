@@ -21,12 +21,17 @@ pip install -r requirements.txt
 ```
 
 [Obtain an API Key](https://www.alphavantage.co/support/#api-key) from AlphaVantage.
+[Obtain an API Key](https://help.mailgun.com/hc/en-us/articles/203380100-Where-can-I-find-my-API-keys-and-SMTP-credentials) from Mailgun.
+Finally, find your sandbox domain from Mailgun and input your own email address as a sender address.
 
 Create a ".env" file and add contents like the following (using your own AlphaVantage API Key):
 
 ```sh
 # this is the ".env" file:
 ALPHAVANTAGE_API_KEY="..."
+MAILGUN_API_KEY="..."
+MAILGUN_DOMAIN="..."
+MAILGUN_SENDER_ADDRESS="..."
 ```
 
 ## Usage
