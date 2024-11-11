@@ -55,3 +55,9 @@ Run the stocks report:
 ```sh
 python app/stocks_report.py
 ```
+
+Testing:
+
+```sh
+pytest
+```
