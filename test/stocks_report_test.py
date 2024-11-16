@@ -3,7 +3,7 @@ from pandas import DataFrame
 from app.stocks import fetch_stocks_csv, format_usd
 
 def test_example():
-    assert 2 + 2 = 4
+    assert 2 + 2 == 4
 
 def test_usd_formatting():
     assert format_usd(3.5) == "$3.50"
