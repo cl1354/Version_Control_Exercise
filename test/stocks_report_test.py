@@ -1,6 +1,6 @@
 from pandas import DataFrame
 
-from app.stocks import fetch_stocks_csv, format_usd
+from app.stocks_report import fetch_stocks_csv, format_usd
 
 def test_example():
     assert 2 + 2 == 4
