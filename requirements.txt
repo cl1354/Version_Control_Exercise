@@ -6,4 +6,6 @@ pandas
 
 python-dotenv
 
+flask
+
 pytest
