@@ -9,3 +9,5 @@ python-dotenv
 flask
 
 pytest
+
+gunicorn
